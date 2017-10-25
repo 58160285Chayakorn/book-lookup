@@ -32,7 +32,7 @@ test('Book look up', () => {
   expect(MockAmazonService).toHaveBeenCalledWith(ispn)
   expect(result).toHaveProperty('bookName')
   expect(result).toHaveProperty('cover')
-
+  expect(result).toHaveProperty('ispn')
 
 
 
