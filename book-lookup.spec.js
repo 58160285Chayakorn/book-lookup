@@ -33,7 +33,7 @@ test('Book look up', () => {
   expect(result).toHaveProperty('bookName')
   expect(result).toHaveProperty('cover')
   expect(result).toHaveProperty('ispn')
-
+  expect(result.name).toBe('Harry potter')
 
 
 })
