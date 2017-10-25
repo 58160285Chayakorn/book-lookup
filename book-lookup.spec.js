@@ -19,8 +19,6 @@ test('Book look up', () => {
     bookName: 'Harry Potter',
     cover: 'bookCover.jpg',
     ispn: '1001234567890'
-
-
   })
   var app = new bookLookUp(MockAmazonService)
 
@@ -33,7 +31,7 @@ test('Book look up', () => {
   expect(result).toHaveProperty('bookName')
   expect(result).toHaveProperty('cover')
   expect(result).toHaveProperty('ispn')
-  expect(result.name).toBe('Harry potter')
+  expect(result.bookName).toBe('Harry Potter')
 
 
 })
