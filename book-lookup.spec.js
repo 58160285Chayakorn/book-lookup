@@ -33,6 +33,7 @@ test('Book look up', () => {
   expect(result).toHaveProperty('ispn')
   expect(result.bookName).toBe('Harry Potter')
   expect(result.cover).toBe('bookCover.jpg')
+  expect(result.ispn).toHaveLength(13)
 
 
 })
