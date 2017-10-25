@@ -32,6 +32,7 @@ test('Book look up', () => {
   expect(result).toHaveProperty('cover')
   expect(result).toHaveProperty('ispn')
   expect(result.bookName).toBe('Harry Potter')
+  expect(result.cover).toBe('bookCover.jpg')
 
 
 })
